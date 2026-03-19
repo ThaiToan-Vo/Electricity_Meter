@@ -1,0 +1,311 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3f51405e-e5be-4c34-abe4-443f82ec7535")
+	(paper "A4")
+	(title_block
+		(title "Smart Electricity Meter")
+	)
+	(lib_symbols)
+	(sheet
+		(at 111.76 96.52)
+		(size 33.02 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48ac9c8f-a658-44a8-82c4-fc86b094e3f6")
+		(property "Sheetname" "ESP32"
+			(at 111.76 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 111.76 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SmartElectricityMeter_Node"
+				(path "/3f51405e-e5be-4c34-abe4-443f82ec7535"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 66.04)
+		(size 31.75 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d6954bc-c51c-4beb-b229-e394222e26c9")
+		(property "Sheetname" "Power"
+			(at 67.31 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 67.31 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SmartElectricityMeter_Node"
+				(path "/3f51405e-e5be-4c34-abe4-443f82ec7535"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 97.79)
+		(size 33.02 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7bdd9897-5352-4beb-bd7a-01c4f4b76b88")
+		(property "Sheetname" "RTC"
+			(at 156.21 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RTC.kicad_sch"
+			(at 156.21 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SmartElectricityMeter_Node"
+				(path "/3f51405e-e5be-4c34-abe4-443f82ec7535"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 67.31)
+		(size 34.29 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "919cb2f6-47ea-4b05-b4ed-f6c33e26b034")
+		(property "Sheetname" "Current_Measure"
+			(at 156.21 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Measure.kicad_sch"
+			(at 156.21 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SmartElectricityMeter_Node"
+				(path "/3f51405e-e5be-4c34-abe4-443f82ec7535"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 66.04)
+		(size 34.29 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "925e6d94-7779-4667-a026-2c17b4a2b4a4")
+		(property "Sheetname" "Voltage_Measure"
+			(at 110.49 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Voltage_Measure.kicad_sch"
+			(at 110.49 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SmartElectricityMeter_Node"
+				(path "/3f51405e-e5be-4c34-abe4-443f82ec7535"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 96.52)
+		(size 31.75 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "babd882f-ff2f-462c-8d38-3b83f871bdf4")
+		(property "Sheetname" "STM32"
+			(at 67.31 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32.kicad_sch"
+			(at 67.31 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SmartElectricityMeter_Node"
+				(path "/3f51405e-e5be-4c34-abe4-443f82ec7535"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.93 67.31)
+		(size 33.02 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e9533f33-e19c-4880-aa40-e2d298e07be6")
+		(property "Sheetname" "Connect"
+			(at 201.93 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connect.kicad_sch"
+			(at 201.93 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SmartElectricityMeter_Node"
+				(path "/3f51405e-e5be-4c34-abe4-443f82ec7535"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

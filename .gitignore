@@ -1,0 +1,22 @@
+# Editor and IDE files
+.vscode/
+.idea/
+.settings/
+
+# Build files
+**/Debug/
+**/Release/
+**/build/
+
+# Hardware
+**/SmartElectricityMeter_Node-backups
+**/~SmartElectricityMeter_Node.kicad_pcb.lck
+**/~SmartElectricityMeter_Node.kicad_sch.lck
+
+**/SmartElectricityMeter_Gateway-backups
+**/~SmartElectricityMeter_Gateway.kicad_pcb.lck
+**/~SmartElectricityMeter_Gateway.kicad_sch.lck
+
+**/test_measure_voltage-backups
+**/~test_measure_voltage.kicad_pcb.lck
+**/~test_measure_voltage.kicad_sch.lck

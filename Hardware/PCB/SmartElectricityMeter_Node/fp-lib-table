@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SmartElectricityMeter")(type "KiCad")(uri "${KIPRJMOD}/../../library/SmartElectricityMeter.pretty")(options "")(descr ""))
+)
